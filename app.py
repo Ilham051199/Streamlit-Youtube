@@ -2,9 +2,8 @@ import pandas as pd
 import pickle
 from PIL import Image
 import streamlit as st
-import plotly
-plotly.offline.init_notebook_mode(connected=True)
-import plotly.offline as px
+import plotly as px
+
 st.title('Indonesia Youtube Trending Statictic')
 
 px.defaults.template = 'plotly_dark'
